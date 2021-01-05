@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActitivity">
+ <EditText
+     android:inputType="textLongMessage"
+     android:maxLines="1"
+     android:maxEms="1"
+     android:layout_margin="10sp"
+     android:id="@+id/titltxt"
+     android:hint="title"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+ </EditText>
+    <EditText
+        android:inputType="textImeMultiLine"
+        android:layout_margin="10sp"
+        android:id="@+id/desctxt"
+        android:hint="description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <NumberPicker
+        android:layout_margin="5dp"
+        android:id="@+id/numpicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </NumberPicker>
+</LinearLayout>
+</layout>
